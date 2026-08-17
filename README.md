@@ -24,7 +24,7 @@ This repository contains the frontend codebase for the DuskyMoon Productions web
 - **Language:** TypeScript
 - **Animations:** Framer Motion
 
-## 🛠️ Local Development
+## Local Development
 
 To run this project locally on your machine:
 

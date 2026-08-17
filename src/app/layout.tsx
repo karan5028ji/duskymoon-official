@@ -17,42 +17,57 @@ const geistMono = Geist_Mono({
 
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "RecordLabel",
-  "name": "DuskyMoon Productions",
-  "description": "Independent record label founded by Kxrn. Shaping the sound of tomorrow.",
-  "url": "https://duskymoon.is-a.dev",
-  "logo": "https://duskymoon.is-a.dev/assets/images/logo.png",
-  "foundingDate": "2024",
-  "founder": {
-    "@type": "Person",
-    "name": "Kxrn",
-    "alternateName": ["Chitresh Gupta", "Chitresh"],
-    "url": "https://kxrn.is-a.dev"
-  },
-  "sameAs": [
-    "https://kxrn.is-a.dev",
-    "https://www.instagram.com/duskymoonproductions",
-    "https://www.youtube.com/@DUSKYMOON_PRODUCTIONS"
-  ],
-  "location": {
-    "@type": "Place",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Delhi",
-      "addressCountry": "IN"
-    }
-  },
-  "genre": ["Hip-Hop", "Electronic", "Experimental"],
-  "employee": [
+  "@graph": [
     {
-      "@type": "Person",
+      "@type": "MusicGroup",
+      "@id": "https://duskymoon.vercel.app/#kxrn",
       "name": "Kxrn",
-      "jobTitle": "Founder & Artist"
+      "alternateName": "Chitresh",
+      "url": "https://duskymoon.vercel.app/roster",
+      "image": "https://duskymoon.vercel.app/assets/artists/kxrn.jpg",
+      "description": "Indian independent music producer, software developer, and founder of DuskyMoon Productions.",
+      "sameAs": [
+        "https://kxrn.is-a.dev",
+        "https://www.wikidata.org/wiki/Q141046426",
+        "https://musicbrainz.org/artist/efbc6b4f-363b-4bbd-a5db-f4d4e8817607",
+        "https://www.instagram.com/kxrn_gupta/",
+        "https://open.spotify.com/artist/57sDiEfeHnIZX2g7gvPBR2"
+      ]
     },
     {
-      "@type": "Person",
-      "name": "Ankit",
-      "jobTitle": "Artist"
+      "@type": "Organization",
+      "@id": "https://duskymoon.vercel.app/#organization",
+      "name": "DuskyMoon Productions",
+      "url": "https://duskymoon.vercel.app",
+      "description": "Independent record label founded by Kxrn. Shaping the sound of tomorrow.",
+      "founder": {
+        "@id": "https://duskymoon.vercel.app/#kxrn"
+      },
+      "sameAs": [
+        "https://www.instagram.com/duskymoonproductions",
+        "https://www.youtube.com/@DUSKYMOON_PRODUCTIONS"
+      ],
+      "knowsAbout": ["Music Production", "Independent Label", "Audio Engineering"],
+      "location": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Delhi",
+          "addressCountry": "IN"
+        }
+      },
+      "employee": [
+        {
+          "@type": "Person",
+          "name": "Kxrn",
+          "jobTitle": "Founder & Artist"
+        },
+        {
+          "@type": "Person",
+          "name": "Ankit",
+          "jobTitle": "Artist"
+        }
+      ]
     }
   ]
 };

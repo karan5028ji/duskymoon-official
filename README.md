@@ -24,32 +24,6 @@ This repository contains the frontend codebase for the DuskyMoon Productions web
 - **Language:** TypeScript
 - **Animations:** Framer Motion
 
-## Local Development
-
-To run this project locally on your machine:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/karan5028ji/duskymoon-official.git
-   ```
-
-2. **Navigate to the directory:**
-   ```bash
-   cd duskymoon-official
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-
-4. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-
-5. Open [http://localhost:3000](http://localhost:3000) in your browser.
-
 ## 📂 Project Structure
 
 * `/app` - Next.js App Router pages (Home, Roster, Releases, Contact)

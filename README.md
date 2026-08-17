@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DuskyMoon Productions 🌙
 
-## Getting Started
+The official digital ecosystem and web platform for **DuskyMoon Productions**, an independent record label. Built with a focus on cinematic minimalism, dynamic data injection, and high-performance SEO.
 
-First, run the development server:
+![DuskyMoon Theme](https://img.shields.io/badge/Theme-Cinematic%20Minimalism-0a0a0a?style=for-the-badge)
+![Next.js](https://img.shields.io/badge/Next.js-14-black?style=for-the-badge&logo=next.js)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This repository contains the frontend codebase for the DuskyMoon Productions website. It is designed to serve as a premium roster showcase and release catalog, utilizing a lightweight JSON-based CMS structure for easy updates without a heavy database backend.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Key Features
+- **Dark Cinematic UI:** Tailored aesthetic utilizing deep voids and obsidian themes (`#0A0A0A`, `#121212`).
+- **Dynamic Routing:** Automated page generation for artists and releases.
+- **JSON-based CMS:** Effortless content updates via `artists.json` and `releases.json`.
+- **Advanced SEO:** Embedded JSON-LD schema for rich search engine results (Knowledge Graph ready).
+- **Smooth Animations:** Integrated Framer Motion for premium scroll and reveal effects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 Tech Stack
 
-## Learn More
+- **Framework:** [Next.js](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Language:** TypeScript
+- **Animations:** Framer Motion
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Local Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run this project locally on your machine:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/karan5028ji/duskymoon-official.git
+   ```
 
-## Deploy on Vercel
+2. **Navigate to the directory:**
+   ```bash
+   cd duskymoon-official
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📂 Project Structure
+
+* `/app` - Next.js App Router pages (Home, Roster, Releases, Contact)
+* `/components` - Reusable UI components (Navbar, Footer, Cards)
+* `/data` - JSON files acting as the local database (`artists.json`, `releases.json`)
+* `/public/assets` - Static images, artist profiles, and release cover arts
+
+## ℗ License
+
+Copyright © 2026 DuskyMoon Productions. All rights reserved.
+*(Note: Codebase is open for viewing, but brand assets and music are strictly copyrighted).*

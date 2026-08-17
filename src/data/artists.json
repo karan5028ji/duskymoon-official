@@ -1,0 +1,32 @@
+[
+  {
+    "id": "kxrn",
+    "name": "Kxrn",
+    "realName": "Chitresh",
+    "role": "Founder & Artist",
+    "bio": "Indian independent music producer and software developer. Founder of DuskyMoon Productions and creator of AI systems like SwarmForge.",
+    "imageUrl": "/assets/artists/kxrn.jpg",
+    "socials": {
+      "spotify": "",
+      "instagram": "https://www.instagram.com/kxrn_gupta/",
+      "website": "https://kxrn.is-a.dev",
+      "appleMusic": "",
+      "youtube": ""
+    }
+  },
+  {
+    "id": "ankit",
+    "name": "Ankit",
+    "realName": "Ankit",
+    "role": "Artist",
+    "bio": "Independent artist and frequent collaborator, featured on 'Sapne'.",
+    "imageUrl": "/assets/artists/ankit.jpeg",
+    "socials": {
+      "spotify": "",
+      "instagram": "https://www.instagram.com/ankiisinghh",
+      "website": "",
+      "appleMusic": "",
+      "youtube": ""
+    }
+  }
+]

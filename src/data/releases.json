@@ -1,0 +1,15 @@
+[
+  {
+    "id": "sapne",
+    "title": "Sapne",
+    "type": "Single",
+    "releaseDate": "2026-08-01",
+    "coverArt": "/assets/releases/sapne.png",
+    "artists": ["Kxrn"],
+    "links": {
+      "spotify": "",
+      "appleMusic": "",
+      "youtube": ""
+    }
+  }
+]

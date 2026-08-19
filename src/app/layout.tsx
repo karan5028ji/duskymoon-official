@@ -24,7 +24,7 @@ const jsonLd = {
       "name": "Kxrn",
       "alternateName": "Chitresh",
       "url": "https://duskymoon.is-a.dev/roster",
-      "image": "https://duskymoon.is-a.dev/assets/artists/kxrn.jpg",
+      "image": "https://duskymoon.is-a.dev/assets/artists/kxrn.png",
       "description": "Indian independent music producer, software developer, and founder of DuskyMoon Productions.",
       "sameAs": [
         "https://kxrn.is-a.dev",

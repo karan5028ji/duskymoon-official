@@ -7,9 +7,9 @@
     "coverArt": "/assets/releases/sapne.png",
     "artists": ["Kxrn"],
     "links": {
-      "spotify": "",
-      "appleMusic": "",
-      "youtube": ""
+      "spotify": "https://open.spotify.com/artist/57sDiEfeHnIZX2g7gvPBR2",
+      "appleMusic": "https://music.apple.com/gb/artist/kxrn-gupta/1816229675",
+      "youtube": "https://youtu.be/9I_mIKX6Vro?si=txYqcflO9EdTec7b"
     }
   }
 ]

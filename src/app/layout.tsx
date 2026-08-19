@@ -20,11 +20,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "MusicGroup",
-      "@id": "https://duskymoon.vercel.app/#kxrn",
+      "@id": "https://duskymoon.is-a.dev/#kxrn",
       "name": "Kxrn",
       "alternateName": "Chitresh",
-      "url": "https://duskymoon.vercel.app/roster",
-      "image": "https://duskymoon.vercel.app/assets/artists/kxrn.jpg",
+      "url": "https://duskymoon.is-a.dev/roster",
+      "image": "https://duskymoon.is-a.dev/assets/artists/kxrn.jpg",
       "description": "Indian independent music producer, software developer, and founder of DuskyMoon Productions.",
       "sameAs": [
         "https://kxrn.is-a.dev",
@@ -36,12 +36,12 @@ const jsonLd = {
     },
     {
       "@type": "Organization",
-      "@id": "https://duskymoon.vercel.app/#organization",
+      "@id": "https://duskymoon.is-a.dev/#organization",
       "name": "DuskyMoon Productions",
-      "url": "https://duskymoon.vercel.app",
+      "url": "https://duskymoon.is-a.dev",
       "description": "Independent record label founded by Kxrn. Shaping the sound of tomorrow.",
       "founder": {
-        "@id": "https://duskymoon.vercel.app/#kxrn"
+        "@id": "https://duskymoon.is-a.dev/#kxrn"
       },
       "sameAs": [
         "https://www.instagram.com/duskymoonproductions",
@@ -65,7 +65,8 @@ const jsonLd = {
         {
           "@type": "Person",
           "name": "Ankit",
-          "jobTitle": "Artist"
+          "jobTitle": "Artist",
+          "sameAs": ["https://www.instagram.com/ankiisinghh/"]
         }
       ]
     }

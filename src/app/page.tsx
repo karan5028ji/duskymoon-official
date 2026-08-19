@@ -57,7 +57,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 15 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: [0.25, 0.1, 0.25, 1], delay: 0.9 }}
-            href="https://open.spotify.com"
+            href="https://open.spotify.com/artist/57sDiEfeHnIZX2g7gvPBR2"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block border border-[#EAEAEA] text-[#EAEAEA] px-8 py-4 text-sm font-semibold tracking-widest uppercase hover:bg-[#EAEAEA] hover:text-[#0A0A0A] transition-all duration-300"

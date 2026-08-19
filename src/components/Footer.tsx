@@ -41,7 +41,7 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2">
               <li>
-                <a href="https://open.spotify.com" target="_blank" rel="noopener noreferrer" className="text-[#A3A3A3] hover:text-[#EAEAEA] transition-colors text-sm">
+                <a href="https://open.spotify.com/artist/57sDiEfeHnIZX2g7gvPBR2" target="_blank" rel="noopener noreferrer" className="text-[#A3A3A3] hover:text-[#EAEAEA] transition-colors text-sm">
                   Spotify
                 </a>
               </li>

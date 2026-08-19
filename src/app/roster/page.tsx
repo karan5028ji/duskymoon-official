@@ -52,12 +52,12 @@ export default function RosterPage() {
               className="group bg-[#121212] border border-[#2A2A2A] overflow-hidden hover:border-[#8E8E8E] transition-all duration-300"
             >
               <div className="relative aspect-square overflow-hidden bg-[#171717]">
-                <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-[#2A2A2A] text-6xl font-bold group-hover:text-[#8E8E8E] transition-colors duration-300">
-                    {artist.name.charAt(0)}
-                  </span>
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <img
+                  src={artist.imageUrl}
+                  alt={artist.name}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-300" />
               </div>
 
               <div className="p-6">

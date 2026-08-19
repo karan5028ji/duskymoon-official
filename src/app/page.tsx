@@ -95,12 +95,12 @@ export default function Home() {
                 className="group cursor-pointer"
               >
                 <div className="relative aspect-square overflow-hidden mb-4 bg-[#121212]">
-                  <div className="absolute inset-0 bg-[#2A2A2A] flex items-center justify-center">
-                    <span className="text-[#A3A3A3] text-4xl font-bold">
-                      {release.title.charAt(0)}
-                    </span>
-                  </div>
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-all duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                  <img
+                    src={release.coverArt}
+                    alt={release.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-[#0A0A0A] via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-6">
                     <span className="text-[#EAEAEA] text-sm font-semibold tracking-wider uppercase">
                       View Release
                     </span>

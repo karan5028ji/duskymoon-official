@@ -20,11 +20,11 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "MusicGroup",
-      "@id": "https://duskymoon.is-a.dev/#kxrn",
+      "@id": "https://duskymoon.vercel.app/#kxrn",
       "name": "Kxrn",
       "alternateName": "Chitresh",
-      "url": "https://duskymoon.is-a.dev/roster",
-      "image": "https://duskymoon.is-a.dev/assets/artists/kxrn.png",
+      "url": "https://duskymoon.vercel.app/roster",
+      "image": "https://duskymoon.vercel.app/assets/artists/kxrn.png",
       "description": "Indian independent music producer, software developer, and founder of DuskyMoon Productions.",
       "sameAs": [
         "https://kxrn.is-a.dev",
@@ -36,12 +36,12 @@ const jsonLd = {
     },
     {
       "@type": "Organization",
-      "@id": "https://duskymoon.is-a.dev/#organization",
+      "@id": "https://duskymoon.vercel.app/#organization",
       "name": "DuskyMoon Productions",
-      "url": "https://duskymoon.is-a.dev",
+      "url": "https://duskymoon.vercel.app",
       "description": "Independent record label founded by Kxrn. Shaping the sound of tomorrow.",
       "founder": {
-        "@id": "https://duskymoon.is-a.dev/#kxrn"
+        "@id": "https://duskymoon.vercel.app/#kxrn"
       },
       "sameAs": [
         "https://www.instagram.com/duskymoonproductions",
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "DuskyMoon Productions",
     description: "The official record label founded by Kxrn.",
-    url: "https://duskymoon.is-a.dev",
+    url: "https://duskymoon.vercel.app",
     siteName: "DuskyMoon Productions",
     images: [
       {
@@ -100,7 +100,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     creator: "@kxrn_gupta",
   },
-  metadataBase: new URL("https://duskymoon.is-a.dev"),
+  metadataBase: new URL("https://duskymoon.vercel.app"),
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

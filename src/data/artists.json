@@ -20,10 +20,24 @@
     "realName": "Ankit",
     "role": "Artist",
     "bio": "Independent artist and frequent collaborator, featured on 'Sapne'.",
-    "imageUrl": "/assets/artists/ankit.jpeg",
+    "imageUrl": "/assets/artists/ankit.png",
     "socials": {
       "spotify": "",
       "instagram": "https://www.instagram.com/ankiisinghh",
+      "website": "",
+      "appleMusic": "",
+      "youtube": ""
+    }
+  },
+  {
+    "id": "aman",
+    "name": "Aman",
+    "role": "Artist",
+    "bio": "Guitarist, Co-artist.",
+    "imageUrl": "/assets/artists/aman.png",
+    "socials": {
+      "spotify": "",
+      "instagram": "https://www.instagram.com/pvtt._.your._.aman?igsh=ZWpnZTFjeTZwM3Q3",
       "website": "",
       "appleMusic": "",
       "youtube": ""
